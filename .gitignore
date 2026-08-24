@@ -1,0 +1,157 @@
+# Symlinks / junctions to external data (Dropbox etc.)
+data/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local environment variables
+.env
+
+# Stata
+*.log
+*.smcl
+*.stswp
+
+# Data files (large files)
+*.dta
+*.csv
+!note/*_sample.csv
+*.zip
+*.xlsx
+*.xls
+*.docx
+
+# GIS/Spatial data files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.gpkg
+*.kml
+*.kmz
+
+# Image files
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.gif
+*.GIF
+*.tiff
+*.tif
+*.bmp
+*.svg
+
+# Document files
+*.pdf
+*.PDF
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.bcf
+*.run.xml
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# Archive files
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Output files
+output/
+intermediate/
+paper/
+temp/
+tmp/
+trash/
+
+# Data directories
+data
+data/
+input/
+raw_data/
+
+# Map output directories
+map/
+maps/
+figures/
+figs/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS generated files
+*.tmp
+*.temp
+
+# Claude local settings
+.claude/
